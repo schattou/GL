@@ -4,7 +4,7 @@ int main(void)
 {
 	unsigned long int S3 = 0;
 	unsigned char nb_rand; 
-	unsigned char i = 0;	 //ici n = nombre de termes
+	unsigned char i = 0;	 
 while ( i < 12 )
         
     {
