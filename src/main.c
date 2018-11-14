@@ -1,14 +1,39 @@
 #include "TP_lib.h"
-#include "my_header.h"
-#include <stdio.h>
+
+void main (void)
+{
+
+    unsigned short int points = 0;
+
+    unsigned short int resultat= 0;
 
 
-int main(void)
-{
-short resultat, i=0;
-while (i<10)
-{
-resultat = LancerDe ();
-i++;
-}
+    do
+
+    {
+        resultat = LancerDe ();
+
+
+         if ( resultat == 2 || resultat == 4 || resultat == 6)
+         {
+             points = points + resultat;
+         }
+
+         else if ( resultat == 3)
+
+         {
+
+             points = points * 2 ;
+
+         }
+
+         else
+
+         {
+         points = points - 2 ;
+         }
+    }
+
+    while (resultat != 1);
+
 }
