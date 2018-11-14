@@ -2,12 +2,12 @@
 
 int main(void)
 {
-	unsigned long int S1 = 3;
-	unsigned char n = 2;
-	while(S1<98)
+	unsigned long int S2 = 3;
+	unsigned char n = 2;	 //ici n = nombre de termes
+	while(S2<9876)
 	{
 		
-		S1 = S1 + 3*n;
+		S2 = S2 + 3*n;
 	 	n = n + 1;
 	}
 		 return 0;
