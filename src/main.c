@@ -2,23 +2,10 @@
 //
 
 #include "my_header.h"
-
-int main(void)
+#include "Tp_lib_suite.h"
+int main (void)
 {
-	int seuil;
-	int i;
-	unsigned char bin[10]={0, 1,  2, 3, 4, 5, 6, 7, 8, 9};
-	seuil = 9;
-	for (i=0 ; i<10 ; i++)
-	{
-						  if (bin[10]<seuil)
-	{
-		bin[i] = 0 ;
-						  }
-								   else
-						  {
-							  bin[i] = 1 ;
-						  }
-	}
-    return 0;
+	unsigned char joueur[6]={ 2,49,5,28,35,18};
+	unsigned char loto[6]={
+	return 0;
 }
